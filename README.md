@@ -4,7 +4,7 @@ Official PyTorch implementation of **"Continual Learning by Exploiting Adaptive 
 
 **Authors:** Christos Tsingiropoulos, Dimitrios Katsikas, Nikolaos Passalis, Anastasios Tefas — Aristotle University of Thessaloniki.
 
-In Class-Incremental Learning (Class-IL), as new classes arrive, the features lose the well-separated structure of Neural Collapse, so old and new classes start to overlap and the model forgets. To keep this structure, this work brings anti-class supervision into Class-IL with a confusion-guided version of the One-Cold Cross-Entropy (OCCE) loss, which pushes each class away from the classes the model confuses it with the most. The loss is added to [DER](https://arxiv.org/abs/2103.16788) without adding any network, module or trainable parameter.
+> In Class-Incremental Learning (Class-IL), as new classes arrive, the features lose the well-separated structure of Neural Collapse, so old and new classes start to overlap and the model forgets. To keep this structure, this work brings anti-class supervision into Class-IL with a confusion-guided version of the One-Cold Cross-Entropy (OCCE) loss, which pushes each class away from the classes the model confuses it with the most. The loss is added to [DER](https://arxiv.org/abs/2103.16788) without adding any network, module or trainable parameter.
 
 ## Method
 
